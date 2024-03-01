@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:aliceblue;
+    color:black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color:black;
+    text-decoration: none;
+}
+#searchInput
+{
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+}
+#btn
+{
+    height:30px;
+    width: 90px;
+    border-radius: 50px;
+}
+#btn:hover
+{
+    background-color: green;
+    color: aqua;
+}

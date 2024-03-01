@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./signup.avif");
+}
+
+.container {
+    text-align: center;
+    border: 2px solid #D3D3D3;
+    padding: 50px;
+}
+
+input[type="tel"],
+input[type="number"],
+button {
+    margin: 5px;
+    padding: 10px;
+}
+
+#otpContainer {
+    margin-top: 10px;
+}
+
+#message {
+    margin-top: 10px;
+}
+h2
+{
+    color: yellowgreen;
+}
+
